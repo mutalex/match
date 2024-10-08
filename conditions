@@ -1,0 +1,8 @@
+fn main() {
+    let day = "Freitag";
+
+    match day {
+        "Samstag" | "Sonntag" => println!("Es ist Wochenende!"),
+        _ => println!("Es ist ein Wochentag."),
+    }
+}
